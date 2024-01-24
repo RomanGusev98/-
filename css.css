@@ -1,0 +1,485 @@
+body{
+    margin: 0 auto;
+}
+
+.container {
+    width: 1296.43px;
+    margin: 0 auto;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*  header */
+.header-navbar-a{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-a, .header-navbar-a{
+    color: #fff;
+}
+
+.header{
+    background-color: #191919;
+    padding: 35px 0;
+}
+
+.header-navbar{
+    align-items: center;
+}
+
+.nav{
+    padding-left: 200px;
+}
+
+.nav .header-navbar{
+    text-align: right;
+}
+
+.header-navbar, .nav-list, .nav-item, .nav-item-img{
+    display: flex;
+}
+
+.nav-item-img{
+    padding: 0 20px 0 20px;
+}
+
+/* Header font-size */
+
+.header-navbar-a{
+    font-size: 12px;
+}
+
+.nav-item{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* section */
+
+.section{
+    margin-top: 60px;
+    height: 500px;
+}
+
+.section-hero-item{
+    background-color: rgba(25, 25, 25, 0.05);
+    border-radius: 8px;
+    width: 416px;
+    margin-bottom: 16px;
+}
+
+.section-hero-img{
+    padding: 12px 24px 12px 16px;
+}
+
+.section-hero-a ,.section-hero-img{
+    display: flex;
+    align-items: center;
+}
+
+.section-hero .section-hero-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section-hero-list{
+    position: relative;
+    margin-top: -500px;
+}
+
+/* section-do */
+
+.section-do{
+    margin-top: 184px;
+}
+
+.section-do-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-do-info-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-do-info h3{
+    display: flex;
+    align-items: center;
+}
+
+.section-do-list{
+    margin-top: 100px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.section-do-item{
+    background-color: rgba(25, 25, 25, 0.05);
+    height: 304px;
+    border-radius: 16px;
+    margin-top: 80px;
+}
+
+.section-do-item, .section-do-data, .section-do-title{
+    display: flex;
+    align-items: center;
+}
+
+.do-data-info{
+    padding-left: 62px;
+}
+
+.section-do-img{
+    height: 240px;
+    width: 320px;
+}
+
+.section-do-data{
+    padding: 0 63px 0 60px;
+    flex-direction: column;
+}
+
+.do-data{
+    font-size: 64px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.do-month{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.do-info{
+    font-size: 48px;
+}
+
+.info{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 16px;
+    color: var(--black, #191919);
+}
+
+.do-title-info{
+    display: flex;
+}
+
+.title-info{
+    margin-right: 30px;
+}
+
+.do-title-info-img{
+    margin-right: 20px;
+}
+
+button{
+    background-color: var(--accent, #05B093);
+    border: 0 var(--accent, #05B093);
+}
+
+.section-do-button{
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 62px;
+}
+
+/* section-news */
+
+h4{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+.section-news{
+    margin-top: 136px;
+}
+
+.section-news-item{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.section-news-list{
+    margin-right: 24px;
+}
+
+/* section-calendar */
+
+.section-calendar, .section-news-menu{
+    display: inline-block;
+}
+
+.section-calendar-img{
+    width: 526px;
+    height: 300px;
+    border-radius: 12px 12px 0 0;
+}
+
+.section-calendar{
+    margin-left: 65px;
+    position: relative;
+}
+
+.section-calendar-h3{
+    position: absolute;
+    left: 24px;
+    top: 200px;
+    font-size: 32px;
+    color: var(--white, #FFF);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.calendar-moth{
+    padding: 24px 20px 0 24px;
+}
+
+.section-calendar-data{
+    margin-top: -36px;
+    background-color: rgba(25, 25, 25, 0.05);
+    height: 264px;
+    border-radius: 0 0 12px 12px;
+}
+
+.calendar-button{
+    color: #fff;
+    height: 48px;
+    width: 48px;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.section-calendar-button{
+    position: absolute;
+    margin-left: 24px;
+    bottom: 24px;
+}
+
+.section-calendar-moth{
+    position: relative;
+    margin-top: 24px;
+}
+
+.calendar-button-moth{
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.calendar-button-data{
+    margin-right: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    color: #FFF;
+}
+
+/* section-calendar-info */
+
+.section-calendar-info{
+    margin-top: 160px;
+}
+
+.data-info{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.data-info-button{
+    padding: 16px 20px 16px 20px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+.data-button-p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFF;
+    margin-top: 0px;
+}
+
+.data-info-moth{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    height: 96px;
+}
+
+.data-info-moth-p{
+    margin-left: 27px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* footer */
+
+h5{
+    color: #FFF;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-navbar-logo{
+    margin-top: 50px;
+}
+
+.footer-navbar, .footer-navbar-title{
+    display: flex;
+}
+
+.footer-info{
+    margin-left: 110px;
+    width: 416px;
+}
+
+.footer-contact{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.footer{
+    margin-top: 150px;
+    background-color: #191919;
+    width: 1,920px;
+    height: 386px;
+}
+
+.footer-info-title{
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer-info-li{
+    margin-right: 24px;
+}
+
+.footer-info-a{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer-contact-title{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer-contact-li{
+    margin-bottom: 24px;
+}
+
+hr{
+    height: 1px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-WWW{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-WWW-title{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* section-bilet */
+
+.section-bilet-afiha{
+    display: flex;
+    margin-top: 100px;
+}
+
+.section-bilet-info{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.bilet-afiha{
+    border-radius: 12px;
+    width: 526px;
+    height: 742px;
+}
+
+.section-bilet-title{
+    margin-left: 134px;
+}
+
+.section-bilet-title-info{
+    margin-top: 40px;
+}
+
+.bilet-title-program{
+    margin-top: 24px;
+}
+
+.bilet-title-button{
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.bilet-img{
+    display: flex;
+    margin-top: 40px;
+}
+
+.bilet-img-poster{
+    margin-right: 24px;
+}
+
+/* section-contact */
+
+.section-contact-title{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-adres{
+    margin-top: 40px;
+}
+
+.section-contact-info{
+    margin-left: 134px;
+}
+
+.section-contact-img{
+    border-radius: 12px;
+}
+
+.section-contact-maps{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
